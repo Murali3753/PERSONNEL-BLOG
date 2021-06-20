@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personnel Blog</title>
+    <link rel="stylesheet" href="./blog.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script src="./blog.js"></script>
+</head>
+<body>
+ 
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">WEBDEVELOPER</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">LIFESTYLE</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon "></span>ABOUT ME</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-contact"></span>CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>  
+  <div class="container">
+    <div class="main">
+     <section class="presentation">
+       <div class="introduction">
+         <div class="intro-text">
+           <h2>murali vijay</h2>
+           <h3>i'm a Creative Designer</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor . Ut enim ad minim veniam, quis nostrud  fugiat nulla pariatur. Excepteur sint 
+           </p>
+         </div>
+         <div class="button">
+           <button class="btn btn1">READ MORE</button>
+           <button class="btn btn2" onclick="clickme()">SUBSCRIBE</button>
+         </div>
+       </div>
+       <div class="cover">
+         <img src="./blog.jpg" alt="my-image">
+       </div>
+     </section>
+      
+  </div>
+  <div class="main-container">
+    <h3>web developer</h3>
+    <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+      sunt in culpa qui officia deserunt mollit anim id est laborum." <span class="moreText">Donec sodales, nibh a auctor pharetra, urna eros ultrices erat, et vestibulum turpis mi ut quam. Morbi quis congue turpis, at sagittis purus. Donec vulputate, erat ac tincidunt maximus, quam urna egestas ante, ut dapibus ipsum odio eu nibh. Sed eros nunc, molestie eget tortor eu, condimentum ultricies nulla. 
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Sed iaculis nisi vel turpis cursus, auctor maximus sem gravida. Donec vestibulum lectus vel purus commodo, eget pellentesque lorem lobortis. Ut neque neque, lacinia ut sem non, lobortis pellentesque urna. Quisque blandit, massa ac scelerisque posuere, diam mi malesuada justo, ut volutpat libero felis et
+       urna. Cras luctus lacus in auctor lacinia. Quisque in vehicula quam. Curabitur varius rutrum magna at rutrum. Aliquam erat volutpat. Etiam euismod dolor hendrerit mauris ullamcorper dictum. Suspendisse non nisl felis.</span></p>
+      <button class="btn btn3">READ MORE</button>
+      <hr>
+  </div>
+
+  <div class="main-container2">
+    <h3>Product design</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+      culpa qui officia deserunt mollit anim id est laborum."</p>
+      <button class="btn btn4">READ MORE</button>
+      <hr>
+  </div>
+  
+  <div class="main-container3">
+    <h3>Entreprenuer</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+      qui officia deserunt mollit anim id est laborum."</p>
+      <button class="btn btn5">READ MORE</button>
+  </div>
+  
+  <footer>
+        <div class="footer-content">
+          <h4>CONTACT</h4>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+          <ul class="socialmediaicons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>copyright &copy;2021.designed by <span>murali vijay</span></p>
+        </div>
+  </footer>
+  </div>
+    
+
+</body>
+</html>

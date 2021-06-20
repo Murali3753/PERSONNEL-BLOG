@@ -1,0 +1,231 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+}
+.container{
+  display: flex;
+  max-width: 2000px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main{
+  width:100%;
+  height: 350px;
+  background-color: black;
+  display: block;
+  float: left;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.img-fluid{
+  width:100%;
+  height:300px;
+  object-fit:contain;
+  object-position:left;
+  @media screen and (max-width:460px){
+    .img-fluid{
+      width:50%;
+    }
+  }
+}
+
+
+.main-container{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  text-align: justify;
+}
+
+.main-container2{
+  width: 100%;
+  height: 200px;
+  background-color:rgb(255, 255, 255);
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  text-align: justify;
+}
+
+.main-container3{
+  width: 100%;
+  height: 200px;
+  background-color:rgb(255, 255, 255);
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  text-align: justify;
+}
+footer{
+background: #111;
+height: auto;
+width: 100vw;
+padding-top: 20px;
+color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  flex-direction: column;
+}
+.socialmediaicons{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socialmediaicons li{
+  margin:  0 10px;
+}
+.socialmediaicons a{
+  text-decoration: none;
+  color: #fff;
+}
+.socialmediaicons a i{
+  font-size: 1.1rem;
+}
+.footer-bottom{
+  background: #000;
+
+  padding:10px 0;
+  text-align: center;
+}
+span{
+  opacity: .4;
+}
+.presentation{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 80vh;
+
+}
+.cover img{
+  height: 40vh;
+}
+.intro-text h3{
+  color:rgb(63, 215, 241);
+  font-size: 4vh;
+
+}
+.intro-text h4{
+  color:#ffff;
+  font-weight: 500;
+}
+.intro-text h2{
+color:white;
+font-weight: bold;
+}
+.intro-text p{
+  color: azure;
+  justify-content: left;
+  opacity: .5;
+  text-align: justify;
+}
+.main-container h3{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(57, 161, 196);
+  text-transform: capitalize;
+}
+.main-container2 h3{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(57, 161, 196);
+  text-transform: capitalize;
+}
+
+.main-container3 h3{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(57, 161, 196);
+  text-transform: capitalize;
+}
+hr{
+  border: 100px solid gray;
+}
+
+/* media quries */
+@media (max-width:600px){
+  .intro-text{
+    width: 60%;
+  }
+}
+@media (max-width:600px){
+  .intro-text h2{
+    width: 40%;
+    font-size: 18px;
+  }
+}
+@media (max-width:600px){
+  .intro-text p{
+    width: 200%;
+    text-align: justify;
+  }
+}
+@media (max-width:600px){
+  .cover img{
+    width: 190px;
+    height: 180px;
+  }
+}
+@media(max-width:600px){
+  .main-container p{
+    width: 85%;
+  }
+}
+@media(max-width:600px){
+  .main-container2 p{
+    width: 85%;
+  }
+}
+@media(max-width:600px){
+  .main-container3 p{
+    width: 85%;
+  }
+}
+
+@media (max-width:600px){
+  .btn{
+    visibility: hidden;
+  }
+}
+ .btn{
+ border: 1px solid green;
+ background: none;
+ padding: 10px 20px;
+ font-size: 19px;
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ cursor: pointer;
+ /* margin: 10px; */
+ transition: 0.8s;
+ position: relative;
+ overflow: hidden;
+
+}
+.btn1, .btn2, .btn3, .btn4,.btn5{
+  color: #3498db;
+  padding: 15px 60px;
+}
+.btn1:hover, .btn2:hover , .btn3:hover, .btn4:hover{
+  color: #fff;
+}
+button:hover{
+  color: #3498db;
+}
+/* Hiding the text */
+.moreText{
+  display: none;
+}
+.text .show-more .moreText{
+  display: inline;
+}
